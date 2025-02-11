@@ -1,0 +1,11 @@
+body, * {
+  margin: 0;
+  padding: 0;
+}
+/* width 가로값, height 세로값, backgound , margin 외부여백 */
+.header {
+  width: 1440px;
+  height: 50px;
+  background: black;
+  margin-top: 30;
+}
