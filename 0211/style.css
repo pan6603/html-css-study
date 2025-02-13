@@ -10,15 +10,16 @@ body, * {
   height: 42px;
   background: white;
   margin: 100px;
-  margin-top: 56px; 
+  margin-top: 56px;
+  margin-bottom: 50px; 
 }
 
 .content {
   width: 1200px;
   height: 423px;
   background: white;
-  margin: 100px;
-  margin-top: 56px;
+  margin: 0 100px;
+  margin-bottom: 50px;
 }
 
 .footer {
@@ -26,5 +27,5 @@ body, * {
   height: 93px;
   background: white;
   margin-top: 0px;
-  margin: 113px;
+  margin: 0 113px;
 }
