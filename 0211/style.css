@@ -1,23 +1,40 @@
 body, * {
   margin: 0;
   padding: 0;
-  background: black;
+
 }
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
 
 .title {
-  background: white;
+  background: blue;
   width: 842px;
-  height: 142px;
-  margin-top: 65px;
+  height: 182px;
+  margin-top: 45px;
   margin-left: 279px;
 }
 
 .content {
-  margin-top: 50px;
-  background: white;
-  width: 1050px;
-  height: 300px;
-  margin-left: 180px;
+  display: flex;
+  margin: 50px 100px 0 100px;
 }
 
+.content1 {
+  background: blue;
+  width: 300px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.content2 {
+  background: blue;
+  width: 300px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.content3 {
+  background: blue;
+  width: 300px;
+  height: 200px;
+
+}
