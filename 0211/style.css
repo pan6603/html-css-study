@@ -5,27 +5,19 @@ body, * {
 }
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
 
-.header {
-  width: 1200px;
-  height: 42px;
+.title {
   background: white;
-  margin: 100px;
-  margin-top: 56px;
-  margin-bottom: 50px; 
+  width: 842px;
+  height: 142px;
+  margin-top: 65px;
+  margin-left: 279px;
 }
 
 .content {
-  width: 1200px;
-  height: 423px;
+  margin-top: 50px;
   background: white;
-  margin: 0 100px;
-  margin-bottom: 50px;
+  width: 1050px;
+  height: 300px;
+  margin-left: 180px;
 }
 
-.footer {
-  width: 1173px;
-  height: 93px;
-  background: white;
-  margin-top: 0px;
-  margin: 0 113px;
-}
