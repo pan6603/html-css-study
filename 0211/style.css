@@ -1,40 +1,59 @@
 body, * {
   margin: 0;
   padding: 0;
+  background: blue;
 
 }
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
 
-.title {
-  background: blue;
-  width: 842px;
-  height: 182px;
-  margin-top: 45px;
-  margin-left: 279px;
+.container {
+  width: 1400px;
+  height: 801px;
+  margin: auto;
 }
 
-.content {
+.header {
+  background: white;
+  width: 1200px;
+  height: 52px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.main {
+  background: white;
+  width: 1200px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   display: flex;
-  margin: 50px 100px 0 100px;
+  gap: 70px;
+  
 }
 
-.content1 {
-  background: blue;
-  width: 300px;
-  height: 200px;
-  margin-right: 50px;
+.content-1 {
+  background: black;
+  width: 601px;
+  height: 360px;
+  flex: 1;
+  margin-left: 0;
+  margin-top: 20px;
 }
 
-.content2 {
-  background: blue;
-  width: 300px;
-  height: 200px;
-  margin-right: 50px;
+.content-2 {
+  background: black;
+  width: 601px;
+  height: 400px;
+  flex: 1;
 }
 
-.content3 {
-  background: blue;
-  width: 300px;
-  height: 200px;
-
+.footer {
+  background: white;
+  width: 1120px;
+  height: 50px;
+  margin-top: 80px;
+  margin-left: 141px;
+  margin-right: 141px;
 }
