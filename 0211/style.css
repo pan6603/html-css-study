@@ -1,59 +1,53 @@
 body, * {
   margin: 0;
   padding: 0;
-  background: blue;
+  background: #000080;
 
 }
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
 
 .container {
-  width: 1400px;
-  height: 801px;
-  margin: auto;
+  width: 1405px;
 }
 
 .header {
   background: white;
-  width: 1200px;
-  height: 52px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
+  width: 842px;
+  height: 184px;
+  margin-top: 60px;
+  margin-left: 279px;
+  margin-right: 279px;
 }
 
-.main {
+.main-content {
   background: white;
-  width: 1200px;
-  height: 400px;
+  width: 1000px;
+  height: 350px;
   margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
   display: flex;
-  gap: 70px;
-  
+  gap: 50px;
 }
 
 .content-1 {
-  background: black;
-  width: 601px;
-  height: 360px;
+  background: gray;
+  width: 300px;
+  height: 350px;
   flex: 1;
-  margin-left: 0;
-  margin-top: 20px;
 }
 
 .content-2 {
-  background: black;
-  width: 601px;
-  height: 400px;
+  background: gray;
+  width: 300px;
+  height: 350px;
   flex: 1;
 }
 
-.footer {
-  background: white;
-  width: 1120px;
-  height: 50px;
-  margin-top: 80px;
-  margin-left: 141px;
-  margin-right: 141px;
+.content-3 {
+  background: gray;
+  width: 300px;
+  height: 350px;
+  margin-right: 0;
+  flex: 1;
 }
