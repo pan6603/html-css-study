@@ -7,54 +7,43 @@ body, * {
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
 
 .container {
-  width: 1400px;
-  height: 800px;
-}
-
-.header {
-  background: white;
-  width: 700px;
-  height: 140px;
-  margin-top: 70px;
+  width: 1100px;
+  height: 200px;
+  margin-top: 80px;
   margin-left: 150px;
+  margin-right: 150px;
 }
 
 .main {
   background: white;
-  width: 1150px;
-  height: 400px;
-  margin-top: 55px;
-  margin-left: 150px;
-  margin-right: 150px;
+  width: 1100px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.main2 {
+  background: white;
+  width: 1100px;
+  height: 150px;
+  margin-top: 50px;
   display: flex;
 }
 
-.main-content1 {
+.main2-content1 {
   background: gray;
-  width: 350px;
-  height: 290px;
-  margin-top: 20px;
-  margin-left: 20px;
-  flex: 1;
-  
-}
-
-.main-content2 {
-  background: gray;
-  width: 350px;
-  height: 350px;
+  width: 500px;
+  height: 100px;
   margin-top: 20px;
   margin-left: 20px;
   flex: 1;
 }
 
-.main-content3 {
+.main2-content2 {
   background: gray;
-  width: 350px;
-  height: 330px;
+  width: 500px;
+  height: 100px;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
   flex: 1;
 }
-
