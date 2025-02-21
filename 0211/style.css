@@ -6,44 +6,23 @@ body, * {
 }
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
 
-.container {
-  width: 1100px;
-  height: 200px;
-  margin-top: 80px;
-  margin-left: 150px;
-  margin-right: 150px;
-}
 
 .main {
   background: white;
-  width: 1100px;
-  height: 200px;
-  margin-top: 50px;
+  height: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.main2 {
+.content {
+  background: gray;
+  height: 250px;
+  margin-left: 242px;
+  margin-right: 242px;
+}
+
+.footer {
   background: white;
-  width: 1100px;
-  height: 150px;
+  height: 274px;
   margin-top: 50px;
-  display: flex;
-}
-
-.main2-content1 {
-  background: gray;
-  width: 500px;
-  height: 100px;
-  margin-top: 20px;
-  margin-left: 20px;
-  flex: 1;
-}
-
-.main2-content2 {
-  background: gray;
-  width: 500px;
-  height: 100px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  flex: 1;
 }
