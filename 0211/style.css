@@ -7,26 +7,31 @@ body, * {
 
 .container {
   background: white;
-  width: 100%;
-  max-width: 1400px; /* 최대 너비 설정 */
-  height: 584px;
-  margin: 0 auto; /* 가운데 정렬 */
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
-
 
 .content {
-  background: gray;
-  width: 850px;
-  height: 185px;
-  margin-top: 50px; /* 위로 50px 올리기 */
-  margin-left: auto;
-  margin-right: auto;
+  background: red;
+  width: 600px;
+  height: 400px;
+  margin-left: 200px;
+  margin-bottom: 20px;
 }
 
-.footer {
-  background: gray;
-  width: 1000px;
-  height: 124px;
-  margin-top: 50px;
-  margin-left: 200px;
+.content1{
+  background: blue;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.content2{
+  background: blue;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 150px;
 }
