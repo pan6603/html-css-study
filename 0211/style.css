@@ -1,96 +1,113 @@
 body, * {
   margin: 0;
   padding: 0;
-  background: #65E4A3;
+  background: white;
   list-style: none;
 }
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
 
 .main {
-  max-width: 1920px;
+  max-width: 1400px;
   width: 100%;
   height: 473px;
+}
+
+.content {
+  max-width: 1000px;
+  height: 392px;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
-}
-
-.header {
-  background: white;
-  margin: 56px auto;
-  max-width: 1200px;
-  width: 100%;
-  height: 42px;
-}
-
-.nav {
-  max-width: 1200px;
-  width: 100%;
-  height: 42px;
-  display: flex;
   justify-content: space-between;
 }
 
-.nav img {
-  width: 163px;
-  height: 42px;
-}
-
-.nav ul {
-  width: 419px;
-  height: 40px;
+.content1 {
+  margin: 0 auto;
+  max-width: 843px;
+  width: 100%;
+  height: 144px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#login-button {
-  width: 128px;
-  height: 35px;
-  border: 1px solid #000;
-  border-radius: 50px;
-  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.content {
-  max-width: 1155px;
+.content1 h5 {
+  line-height: 32px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content1 h1 {
+  line-height: 72px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.content-buttom {
+  max-width: 1000px;
   width: 100%;
-  height: 183px;
-  margin: 0 auto;
+  height: 124px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.content-1 {
-  max-width: 600px;
-  width: 100%;
-  height: 183px;
+.content-buttom-1 {
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
 }
 
-.content-2 {
-  max-width: 455px;
-  width: 100%;
-  height: 64px;
-}
-
-.content-1 h5 {
+.content-buttom-1 h1 {
+  line-height: 56px;
+  font-size: 76px;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
 }
 
-.content-1 p {
+.content-buttom-1 h5 {
+  line-height: 36px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 72px;
-  font-size: 48px;
-
 }
 
-.content-2 p {
+.content-buttom-2 {
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-buttom-2 h1 {
+  line-height: 56px;
+  font-size: 76px;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
 }
 
+.content-buttom-2 h5 {
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.content-buttom-3 {
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-buttom-3 h1 {
+  line-height: 56px;
+  font-size: 76px;
+  font-weight: 400;
+}
+
+.content-buttom-3 h5 {
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 400;
+}
