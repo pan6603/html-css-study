@@ -1,7 +1,6 @@
 body, * {
   margin: 0;
   padding: 0;
-  background: #0A2640;
   list-style: none;
 }
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
@@ -10,95 +9,192 @@ body, * {
   margin: 0 auto;
   max-width: 1400px;
   width: 100%;
-  height: 1166px;
-}
-
-.title {
-  max-width: 800px;
-  width: 100%;
-  height: 250px;
-  margin: 100px auto;
+  height: 949px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.title1 {
-  font-size: 20px;
-  font-weight: 400;
-  color: #FFFFFF;
-  line-height: 32px;
+.main-content {
+  margin: 0 auto;
+  background: #0A2640;
+  max-width: 1200px;
+  width: 100%;
+  height: 391px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.title2 {
+.main-content-text {
+  margin: auto;
+  max-width: 716px;
+  width: 100%;
+  height: 247px;
+}
+
+.main-content-text p {
   font-size: 48px;
   font-weight: 400;
   color: #FFFFFF;
-  line-height: 72px;
+  text-align: center;
 }
 
-.title3 {
+.button-layout {
+  margin: 40px auto;
+  max-width: 604px;
+  width: 100%;
+  height: 60px;
+  
+}
+
+.button-layout ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#address-button {
+  background: #FFFFFF;
+  max-width: 370px;
+  width: 100%;
+  height: 56px;
+  border-radius: 240px;
+  border: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#address-button p {
   font-size: 20px;
   font-weight: 400;
-  color: #FFFFFF;
   line-height: 32px;
+  color: black;
+  text-align: center;
 }
 
-.content {
-  margin: 0 auto;
-  max-width: 800px;
+#start-button {
+  background: #65E4A3;
+  max-width: 210px;
   width: 100%;
-  height: 151px;
+  height: 60px;
+  border-radius: 56px;
+  border: 2px;
   display: flex;
-  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+#start-button p {
+  color: #0A2640;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.main-footer {
+  max-width: 1400px;
+  width: 100%;
+  height: 474px;
+}
+
+.main-footer-text {
+  margin: 100px auto;
+  background: white;
+  max-width: 1200px;
+  width: 100%;
+  height: 300px;
+  display: flex;
   justify-content: space-between;
 }
 
-.content2 {
-  margin: 70px auto;
-  max-width: 800px;
-  width: 100%;
-  height: 151px;
-  display: flex;
-  gap: 16px;
-  justify-content: space-between;
-}
-
-.content3 {
-  margin: 70px auto;
-  max-width: 800px;
-  width: 100%;
-  height: 151px;
-  display: flex;
-  gap: 16px;
-  justify-content: space-between;
-}
-
-.content img {
-  width: 150px;
-  height: 150px;
-  border-radius: 24px;
-}
-
-.content-text {
-  max-width: 600px;
-  width: 100%;
-  height: 126px;
+.main-footer-text-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 50px;
 }
 
-.content-text-1 {
-  font-size: 28px;
+.main-footer-text-content img {
+  max-width: 156px;
+  height: 41px;
+}
+
+.main-footer-text-content p {
+  font-size: 16px;
   font-weight: 400;
-  color: #FFFFFF;
-  line-height: 48px;
+  color: #777777;
+  line-height: 28px;
 }
 
-.content-text-2 {
+.main-footer-menu {
+  margin: 0 auto;
+  max-width: 642px;
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#main-footer-menu-text-1 ul{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   font-size: 20px;
-  font-weight: 400;
-  color: #FFFFFF;
   line-height: 32px;
+  font-weight: 400;
+  color: #777777;
 }
+
+#main-footer-menu-text-2 ul{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #777777;
+}
+
+#main-footer-menu-text-3 ul{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #777777;
+}
+
+#string-text {
+  font-weight: 700;
+  color: #0A2640;
+}
+
+#career-hiring {
+  display: flex;
+  gap: 5px;
+  width: 172px;
+}
+
+.div-hiring {
+  background: #65E4A3;
+  max-width: 50px;
+  width: 100%;
+  height: 30px;
+  border-radius: 120px;
+  text-align: center;
+}
+
+#hiring {
+  font-size: 10px;
+  color: #0A2640;
+}
+
+
+
