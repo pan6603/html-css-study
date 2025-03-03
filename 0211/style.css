@@ -2,198 +2,103 @@ body, * {
   margin: 0;
   padding: 0;
   list-style: none;
+  background: #0A2640;
 }
 /* width 가로값, height 세로값, backgound , margin 외부여백 */
+
 
 .main {
   margin: 0 auto;
   max-width: 1400px;
   width: 100%;
-  height: 949px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 1093px;
 }
 
-.main-content {
+.title {
+  margin: 100px auto;
+  max-width: 842px;
+  width: 100%;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+}
+
+#title-1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #FFFFFF;
   margin: 0 auto;
-  background: #0A2640;
-  max-width: 1200px;
-  width: 100%;
-  height: 391px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
-.main-content-text {
-  margin: auto;
-  max-width: 716px;
-  width: 100%;
-  height: 247px;
-}
-
-.main-content-text p {
+#title-2 {
   font-size: 48px;
   font-weight: 400;
+  line-height: 72px;
   color: #FFFFFF;
   text-align: center;
 }
 
-.button-layout {
-  margin: 40px auto;
-  max-width: 604px;
-  width: 100%;
-  height: 60px;
-  
-}
-
-.button-layout ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-#address-button {
+.line {
   background: #FFFFFF;
-  max-width: 370px;
+  max-width: 1100px;
   width: 100%;
-  height: 56px;
-  border-radius: 240px;
-  border: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#address-button p {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  color: black;
-  text-align: center;
-}
-
-#start-button {
-  background: #65E4A3;
-  max-width: 210px;
-  width: 100%;
-  height: 60px;
-  border-radius: 56px;
-  border: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#start-button p {
-  color: #0A2640;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 28px;
-}
-
-.main-footer {
-  max-width: 1400px;
-  width: 100%;
-  height: 474px;
-}
-
-.main-footer-text {
-  margin: 100px auto;
-  background: white;
-  max-width: 1200px;
-  width: 100%;
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.main-footer-text-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 50px;
-}
-
-.main-footer-text-content img {
-  max-width: 156px;
-  height: 41px;
-}
-
-.main-footer-text-content p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #777777;
-  line-height: 28px;
-}
-
-.main-footer-menu {
+  height: 1px;
   margin: 0 auto;
-  max-width: 642px;
+}
+
+.content-footer {
+  max-width: 1100px;
   width: 100%;
-  height: 240px;
+  height: 560px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.content-footer-text {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  height: 102px;
   display: flex;
   justify-content: space-between;
-  
 }
 
-#main-footer-menu-text-1 ul{
-  margin-top: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  font-size: 20px;
-  line-height: 32px;
+#big-text {
+  font-size: 48px;
   font-weight: 400;
-  color: #777777;
+  line-height: 72px;
+  color: #FFFFFF;
 }
 
-#main-footer-menu-text-2 ul{
-  margin-top: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+#big-text span {
+  color: #65E465;
+}
+
+.content-footer-p{
+  color: #f1f1f1;
   font-size: 20px;
-  line-height: 32px;
   font-weight: 400;
-  color: #777777;
+  line-height: 32px;
+  margin-right: 20px;
 }
 
-#main-footer-menu-text-3 ul{
-  margin-top: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+.content-footer-p-2{
+  color: #f1f1f1;
   font-size: 20px;
-  line-height: 32px;
   font-weight: 400;
-  color: #777777;
+  line-height: 32px;
+  margin-right: 10px;
 }
 
-#string-text {
-  font-weight: 700;
-  color: #0A2640;
-}
-
-#career-hiring {
-  display: flex;
-  gap: 5px;
-  width: 172px;
-}
-
-.div-hiring {
-  background: #65E4A3;
-  max-width: 50px;
-  width: 100%;
-  height: 30px;
-  border-radius: 120px;
-  text-align: center;
-}
-
-#hiring {
-  font-size: 10px;
-  color: #0A2640;
+.content-footer-p-3{
+  color: #f1f1f1;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-right: 48px;
 }
 
 
