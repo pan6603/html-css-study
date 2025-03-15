@@ -1,105 +1,198 @@
-body, * {
+* {
   margin: 0;
   padding: 0;
-  list-style: none;
-  background: #0A2640;
+  box-sizing: border-box;
+  background: black;
 }
-/* width 가로값, height 세로값, backgound , margin 외부여백 */
-
 
 .main {
-  margin: 0 auto;
-  max-width: 1400px;
-  width: 100%;
-  height: 1093px;
+  width: 1440px;
+  height: 877px;
 }
 
-.title {
-  margin: 100px auto;
-  max-width: 842px;
-  width: 100%;
-  height: 184px;
-  display: flex;
-  flex-direction: column;
-}
-
-#title-1 {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  color: #FFFFFF;
-  margin: 0 auto;
-}
-
-#title-2 {
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 72px;
-  color: #FFFFFF;
-  text-align: center;
-}
-
-.line {
-  background: #FFFFFF;
-  max-width: 1100px;
-  width: 100%;
-  height: 1px;
-  margin: 0 auto;
-}
-
-.content-footer {
-  max-width: 1100px;
-  width: 100%;
-  height: 560px;
-  margin: 80px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-}
-
-.content-footer-text {
-  margin: 0 auto;
-  max-width: 1100px;
-  width: 100%;
-  height: 102px;
+.main-content {
+  width: 1170px;
+  height: 540px;
+  margin: 115px auto;
   display: flex;
   justify-content: space-between;
 }
 
-#big-text {
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 72px;
-  color: #FFFFFF;
+#footer {
+  text-align: center;
+  color: white;
 }
 
-#big-text span {
-  color: #65E465;
+.most-popular {
+  width: 364px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.content-footer-p{
-  color: #f1f1f1;
+.latest {
+  width: 364px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.most-popular p {
   font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  margin-right: 20px;
+  color: white;
 }
 
-.content-footer-p-2{
-  color: #f1f1f1;
+.latest p {
   font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  margin-right: 10px;
+  color: white;
 }
 
-.content-footer-p-3{
-  color: #f1f1f1;
+.gallery p {
   font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  margin-right: 48px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.gallery-layout {
+  max-width: 316px;
+  width: 100%;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery-layout-img {
+  max-width: 315px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+#gallery-icon {
+  max-width: 155px;
+  width: 100%;
+  height: 150px;
+  background: white;
+}
+
+.most-popular-list {
+  width: 350px;
+  height: 477px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.latest-list {
+  width: 350px;
+  height: 477px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.most-popular-list-stayle {
+  width: 350px;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-list-stayle {
+  width: 350px;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.most-popular-list-stayle p {
+  font-size: 16px;
+}
+
+.latest-list-stayle p {
+  font-size: 16px;
+}
+
+.most-popular-list-stayle-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 230px;
+}
+
+.latest-list-stayle-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 230px;
 }
 
 
+.most-popular-list-stayle-text-bottom {
+  height: 18px;
+  display: flex;
+  gap: 25px;
+}
 
+.latest-list-stayle-text-bottom {
+  height: 18px;
+  display: flex;
+  gap: 25px;
+}
+
+.most-popular-list-stayle-text-bottom-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-list-stayle-text-bottom-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.most-popular-list-stayle-text-bottom-content span {
+  color: white;
+  font-size: 12px;
+}
+
+.latest-list-stayle-text-bottom-content span {
+  color: white;
+  font-size: 12px;
+}
+
+.most-popular-list-stayle-text-bottom-content img {
+  font-size: 12px;
+  height: 12px;
+  margin-right: 7px;
+}
+
+.latest-list-stayle-text-bottom-content img {
+  font-size: 12px;
+  height: 12px;
+  margin-right: 7px;
+}
+
+#most-popular-img-icon1 {
+  width: 97px;
+  height: 93px;
+}
+
+#latest-icon1 {
+  width: 97px;
+  height: 93px;
+}
+
+.gallery {
+  width: 354px;
+  height: 540px;
+}
+
+.latest {
+  width: 354px;
+  height: 540px;
+}
